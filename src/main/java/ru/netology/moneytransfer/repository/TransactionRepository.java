@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class TransactionRepository {
     private ConcurrentHashMap<String, TransactionData> transactionRepo;
 
-    public sTransactionRepository(){
+    public TransactionRepository(){
         this.transactionRepo = new ConcurrentHashMap<>();
     }
 
